@@ -224,13 +224,14 @@ egrep '[1-9]' newfile
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-<img width="442" height="80" alt="exp1-egrep(8)" src="https://github.com/user-attachments/assets/a57e6dab-1033-45ca-9a06-25820209187f" />
 
+<img width="487" height="82" alt="exp1-egrep(8(2))" src="https://github.com/user-attachments/assets/3c9c8c7e-f1fe-45ad-bfbd-addfd09682a9" />
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-<img width="487" height="82" alt="exp1-egrep(8(2))" src="https://github.com/user-attachments/assets/3c9c8c7e-f1fe-45ad-bfbd-addfd09682a9" />
+<img width="442" height="80" alt="exp1-egrep(8)" src="https://github.com/user-attachments/assets/a57e6dab-1033-45ca-9a06-25820209187f" />
+
 
 egrep l{2} newfile
 ## OUTPUT
