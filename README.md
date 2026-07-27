@@ -3,8 +3,7 @@ Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
-# AIM:<img width="627" height="762" alt="exp1-1" src="https://github.com/user-attachments/assets/485545db-c06c-4a82-a021-a2cc1fbf8f53" />
-
+# AIM:
 To practice Linux Commands and Shell Scripting
 
 # DESIGN STEPS:
@@ -49,18 +48,23 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+<img width="505" height="185" alt="exp1-2" src="https://github.com/user-attachments/assets/5917df8e-fecc-4687-9908-7829fa3939a1" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+ <img width="465" height="526" alt="exp1-comm" src="https://github.com/user-attachments/assets/82c87460-0db9-4d8c-ade7-b07d85af3849" />
+
 comm file1 file2
+
  ## OUTPUT
 
  
 diff file1 file2
 ## OUTPUT
+<img width="442" height="411" alt="exp1-diff" src="https://github.com/user-attachments/assets/0ab20b93-0e65-4ce9-b4b9-8bcd72b0b1f6" />
 
 
 #Filters
