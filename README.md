@@ -3,7 +3,8 @@ Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
-# AIM:
+# AIM:<img width="627" height="762" alt="exp1-1" src="https://github.com/user-attachments/assets/485545db-c06c-4a82-a021-a2cc1fbf8f53" />
+
 To practice Linux Commands and Shell Scripting
 
 # DESIGN STEPS:
@@ -42,6 +43,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="627" height="762" alt="exp1-1" src="https://github.com/user-attachments/assets/564eed62-24e5-4668-a6b4-9c5bbe6d7272" />
 
 
 
