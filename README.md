@@ -348,6 +348,9 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+
+<img width="472" height="122" alt="exp1-seq(7)" src="https://github.com/user-attachments/assets/0114ca24-a76b-4b6a-af4e-924fbfd70ffa" />
 
 
 #Sorting File content
