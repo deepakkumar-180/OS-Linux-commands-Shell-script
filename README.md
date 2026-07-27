@@ -364,8 +364,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-<img width="440" height="186" alt="exp1-sort" src="https://github.com/user-attachments/assets/828c1f97-c61f-4dcd-bfc5-4cc557642bf0" />
-
+<img width="565" height="177" alt="exp1-sort" src="https://github.com/user-attachments/assets/f3006be2-07c9-4640-967b-e7159b9754a2" />
 
 cat > file22
 ```
@@ -379,14 +378,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-<img width="460" height="186" alt="exp1-UNIQ1" src="https://github.com/user-attachments/assets/3a6838d2-4054-4a18-af29-e68bb99f273d" />
-
+<img width="561" height="180" alt="exp1-UNIQ1" src="https://github.com/user-attachments/assets/d6692543-e16e-4dc1-bd70-5548f4beb53f" />
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-<img width="542" height="266" alt="exp1-tr" src="https://github.com/user-attachments/assets/13572893-ba4f-4eda-bf94-80ee6973e937" />
+<img width="597" height="257" alt="exp1-tr" src="https://github.com/user-attachments/assets/ba434ddc-bd7b-406b-b347-66c5e66ae320" />
+
 
 cat < urllist.txt
 ```
@@ -404,13 +403,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-<img width="432" height="227" alt="exp1-urlist" src="https://github.com/user-attachments/assets/406368b4-7e49-49bd-9f95-94816acc40cc" />
+<img width="440" height="132" alt="exp1-urlist" src="https://github.com/user-attachments/assets/08fffe8a-713e-4fd1-9533-ec6dc295f409" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-<img width="570" height="231" alt="exp1-urlist(1)" src="https://github.com/user-attachments/assets/cd24e770-5880-47a8-b23e-abe4a255c359" />
+<img width="580" height="131" alt="exp1-urlist(1)" src="https://github.com/user-attachments/assets/1976711f-1b02-474f-9881-7a252946a61c" />
 
 
 #Backup commands
