@@ -310,34 +310,41 @@ sed -n -e '/tom/,/Joe/p' file23
 seq 10 
 ## OUTPUT
 
+<img width="600" height="307" alt="exp1-seq" src="https://github.com/user-attachments/assets/29c58d45-20bf-41f1-b728-d0d079967de2" />
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="472" height="130" alt="exp1-seq(1)" src="https://github.com/user-attachments/assets/8fef83fd-397f-4950-8b4b-6f5b3f4f6008" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="531" height="132" alt="exp1-seq(2)" src="https://github.com/user-attachments/assets/abb9440d-33d2-4792-9c78-51db6ea42d77" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="482" height="132" alt="exp1-seq(3)" src="https://github.com/user-attachments/assets/b8e5f460-4637-4d26-95d2-2ea75353cd42" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="482" height="132" alt="exp1-seq(4)" src="https://github.com/user-attachments/assets/5248044c-1d30-442a-984b-2e309319de20" />
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+<img width="440" height="125" alt="exp1-seq(5)" src="https://github.com/user-attachments/assets/712575f1-77fb-4de7-a38b-4c1662e1c9a9" />
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="510" height="127" alt="exp1-seq(6)" src="https://github.com/user-attachments/assets/82421616-53f5-494b-b13f-6eaa790ff1ba" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
