@@ -48,18 +48,20 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-<img width="505" height="185" alt="exp1-2" src="https://github.com/user-attachments/assets/5917df8e-fecc-4687-9908-7829fa3939a1" />
+<img width="627" height="762" alt="exp1-1" src="https://github.com/user-attachments/assets/564eed62-24e5-4668-a6b4-9c5bbe6d7272" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+<img width="505" height="185" alt="exp1-2" src="https://github.com/user-attachments/assets/8dbe6195-c86c-4c6f-af01-57c8e9e8c045" />
 
- <img width="465" height="526" alt="exp1-comm" src="https://github.com/user-attachments/assets/82c87460-0db9-4d8c-ade7-b07d85af3849" />
+ 
 
 comm file1 file2
 
  ## OUTPUT
+<img width="465" height="526" alt="exp1-comm" src="https://github.com/user-attachments/assets/cf07647c-3f28-4680-b32a-c8542ab7d722" />
 
  
 diff file1 file2
