@@ -364,6 +364,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="440" height="186" alt="exp1-sort" src="https://github.com/user-attachments/assets/828c1f97-c61f-4dcd-bfc5-4cc557642bf0" />
 
 
 cat > file22
@@ -378,12 +379,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="460" height="186" alt="exp1-UNIQ1" src="https://github.com/user-attachments/assets/3a6838d2-4054-4a18-af29-e68bb99f273d" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="542" height="266" alt="exp1-tr" src="https://github.com/user-attachments/assets/13572893-ba4f-4eda-bf94-80ee6973e937" />
 
 cat < urllist.txt
 ```
@@ -401,11 +404,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="432" height="227" alt="exp1-urlist" src="https://github.com/user-attachments/assets/406368b4-7e49-49bd-9f95-94816acc40cc" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="570" height="231" alt="exp1-urlist(1)" src="https://github.com/user-attachments/assets/cd24e770-5880-47a8-b23e-abe4a255c359" />
 
 
 #Backup commands
