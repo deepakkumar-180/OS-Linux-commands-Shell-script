@@ -261,42 +261,50 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="412" height="77" alt="exp1-sed" src="https://github.com/user-attachments/assets/b9d8bf23-4ba3-4929-b80a-5a56a71b879c" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+<img width="387" height="85" alt="exp1-sed(1)" src="https://github.com/user-attachments/assets/f18936bc-88f3-4136-8f94-41b9bfd286da" />
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="411" height="257" alt="exp1-sed(2)" src="https://github.com/user-attachments/assets/c0cabdde-da59-4079-bc7f-febc87341636" />
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="456" height="252" alt="exp1-sed(3)" src="https://github.com/user-attachments/assets/d8ff36d1-6539-4abb-8561-b2b14787dc2e" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="492" height="245" alt="exp1-sed(4)" src="https://github.com/user-attachments/assets/377865cd-e8de-4596-94ee-1d8b84bda4f8" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="422" height="185" alt="exp1-sed(5)" src="https://github.com/user-attachments/assets/17b4022b-e569-4998-891d-0259df374f81" />
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="426" height="122" alt="exp1-sed(6)" src="https://github.com/user-attachments/assets/82fe5c95-e53e-4272-bb9b-7ff76b994126" />
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+<img width="497" height="102" alt="exp1-sed(7)" src="https://github.com/user-attachments/assets/13404c96-c48c-4fa6-a402-d6cf4d401eea" />
 
 
 seq 10 
