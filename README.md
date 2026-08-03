@@ -468,6 +468,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="436" height="137" alt="exp1-ss" src="https://github.com/user-attachments/assets/6b276c06-f605-4cbd-8c72-52924430c993" />
 
 
 cat < scriptest.sh 
@@ -506,23 +507,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="610" height="430" alt="exp1-ss(2)" src="https://github.com/user-attachments/assets/7d5667e3-0020-4c45-9a2a-e0efc31f1808" />
 
  
 ls file1
 ## OUTPUT
+<img width="438" height="72" alt="exp1-ss(3)" src="https://github.com/user-attachments/assets/aad0b8af-8d9e-498e-beb5-7203277c14f2" />
 
 echo $?
 ## OUTPUT 
+<img width="410" height="72" alt="exp1-ss(4)" src="https://github.com/user-attachments/assets/5abfafaa-dfe4-47d7-ad94-7cbd9df4431e" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="510" height="157" alt="exp1-ss(5)" src="https://github.com/user-attachments/assets/46bab21b-aa4c-419d-a054-d9964d413692" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="392" height="67" alt="exp1-ss(6)" src="https://github.com/user-attachments/assets/2d63fb9b-11ce-44ba-b89f-c443d16abfa7" />
 
 
  
