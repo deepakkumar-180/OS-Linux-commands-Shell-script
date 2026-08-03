@@ -432,17 +432,20 @@ tar -tvf backup.tar
 
 tar -xvf backup.tar
 ## OUTPUT
-<img width="472" height="103" alt="exp1-tar(1)" src="https://github.com/user-attachments/assets/766b0c3c-a4a0-463a-9637-cd7f5a5b5850" />
+<img width="501" height="100" alt="exp1-tar(2)" src="https://github.com/user-attachments/assets/947e39bd-7c61-47e3-94cc-5928a365817d" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- <img width="501" height="100" alt="exp1-tar(2)" src="https://github.com/user-attachments/assets/48c07d09-2e45-4593-a748-9f0a8bab7f6d" />
+<img width="528" height="70" alt="exp1-tar(3)" src="https://github.com/user-attachments/assets/f9177f09-155e-4275-b9ac-a2da9d72869f" />
+
 
 gunzip backup.tar.gz
 ## OUTPUT
-<img width="492" height="125" alt="exp1-tar(4)" src="https://github.com/user-attachments/assets/119e1401-d32f-4546-8bb4-9050d963f9ed" />
+<img width="492" height="125" alt="exp1-tar(4)" src="https://github.com/user-attachments/assets/55cdc6ac-f53a-4b07-8928-9892416ec765" />
+
 
  
 # Shell Script
