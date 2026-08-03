@@ -415,6 +415,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="472" height="103" alt="exp1-tar(1)" src="https://github.com/user-attachments/assets/c7851ae7-24f6-4145-b23e-8b44eba0ce79" />
+
 
 
 mkdir backupdir
@@ -425,18 +427,22 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="607" height="100" alt="exp1-tar" src="https://github.com/user-attachments/assets/2d713617-1f9d-42fc-8fc3-5f97b30aa147" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="472" height="103" alt="exp1-tar(1)" src="https://github.com/user-attachments/assets/766b0c3c-a4a0-463a-9637-cd7f5a5b5850" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="501" height="100" alt="exp1-tar(2)" src="https://github.com/user-attachments/assets/48c07d09-2e45-4593-a748-9f0a8bab7f6d" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="492" height="125" alt="exp1-tar(4)" src="https://github.com/user-attachments/assets/119e1401-d32f-4546-8bb4-9050d963f9ed" />
 
  
 # Shell Script
