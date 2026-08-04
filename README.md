@@ -562,7 +562,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-<img width="412" height="130" alt="exp1-mis" src="https://github.com/user-attachments/assets/03ca87a5-d284-4faf-8736-6166d8833ed1" />
+
 
 
 
@@ -570,7 +570,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-<img width="542" height="77" alt="exp1-mis(1)" src="https://github.com/user-attachments/assets/20308bb3-a4e5-487c-bed6-e1f929c8355b" />
+<img width="412" height="130" alt="exp1-mis" src="https://github.com/user-attachments/assets/133b3e34-590c-4be5-bdf5-42b9d3f955e8" />
+
 
 
 # check file ownership
@@ -598,7 +599,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-<img width="517" height="127" alt="exp1-mis(2)" src="https://github.com/user-attachments/assets/8137e2ab-9dfb-4c50-a59c-ec140b7ec539" />
+<img width="542" height="77" alt="exp1-mis(1)" src="https://github.com/user-attachments/assets/4453c198-1328-4448-92d8-8078c86c04d7" />
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -645,6 +647,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="517" height="127" alt="exp1-mis(2)" src="https://github.com/user-attachments/assets/3fc6478f-251d-41ce-acda-c2223363c626" />
 
 
 
