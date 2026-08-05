@@ -691,7 +691,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+# #OUTPUT
+
+<img width="386" height="157" alt="exp1-if" src="https://github.com/user-attachments/assets/322fda1f-8966-403f-b006-bc52ca87b576" />
+
 
 # check if a file
 cat > ifnested.sh 
@@ -740,7 +743,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+# #OUTPUT
+<img width="491" height="180" alt="exp1-check" src="https://github.com/user-attachments/assets/c70fa6c6-186f-4d51-985b-8dda4a317f36" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -769,6 +773,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="412" height="136" alt="exp1-possible" src="https://github.com/user-attachments/assets/eae00b44-6563-456f-967f-3f784e0edb0a" />
 
 
 # testing compound comparisons
@@ -785,6 +790,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="508" height="83" alt="exp1-testing" src="https://github.com/user-attachments/assets/920ef3e7-e63b-4df2-8d4f-bda11fb2f48e" />
 
 # using the case command
 cat >casecheck.sh 
