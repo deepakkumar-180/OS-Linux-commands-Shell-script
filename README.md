@@ -811,6 +811,8 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
 ## output
+<img width="402" height="80" alt="exp1-casecom" src="https://github.com/user-attachments/assets/73c36dc1-3ce8-454b-86cc-476899d9307d" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -826,6 +828,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  ## output
+ <img width="490" height="357" alt="exp1-casecom(1)" src="https://github.com/user-attachments/assets/b3b10608-4361-4d2e-bc30-1e0c126fb46b" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -838,7 +842,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  ## output
- 
+ <img width="456" height="206" alt="exp1-casecom(2)" src="https://github.com/user-attachments/assets/e7172359-cae9-4fcb-b225-23a7827b6b26" />
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -851,6 +856,8 @@ done
  
 $ chmod 755 forin1.sh
  ## output
+ <img width="493" height="202" alt="exp1-casecom(3)" src="https://github.com/user-attachments/assets/1247512a-42b8-4962-931f-aacfd062b26f" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -863,7 +870,8 @@ done
  
 $ chmod 755 forin2.sh
  # #output
- 
+ <img width="472" height="257" alt="exp1-casecom(4)" src="https://github.com/user-attachments/assets/e26037aa-27ad-40d4-bd18-7e2af1774fe2" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -877,6 +885,8 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 ## output
+<img width="472" height="257" alt="exp1-casecom(4)" src="https://github.com/user-attachments/assets/73d3e801-2763-4cd5-8644-ff60ebc9f939" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -888,6 +898,8 @@ done
 ```
 $ ./forin3.sh 
 ## output
+<img width="472" height="257" alt="exp1-casecom(4)" src="https://github.com/user-attachments/assets/24deac05-a741-492a-919e-82272f2ea843" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
