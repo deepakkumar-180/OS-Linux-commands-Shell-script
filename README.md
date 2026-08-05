@@ -810,7 +810,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## output
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -825,8 +825,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+ ## output
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -838,8 +837,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+ ## output
  
 cat forin1.sh 
 ```bash
@@ -852,8 +850,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+ ## output
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -865,6 +862,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
+ # #output
  
 cat forin2.sh 
 ```bash
@@ -878,7 +876,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+## output
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -889,7 +887,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+## output
 cat forin1.sh 
 ```bash
 #!/bin/bash
