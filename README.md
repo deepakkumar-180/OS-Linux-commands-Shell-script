@@ -1029,7 +1029,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="427" height="223" alt="exp1-casecom(11)" src="https://github.com/user-attachments/assets/568f13cb-3dab-4d36-bb4c-2fbc540fbc98" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1043,6 +1044,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="413" height="113" alt="exp1-casecom(12)" src="https://github.com/user-attachments/assets/6d3f56fe-978d-4881-9215-e2c7e3282113" />
 
 
  cat exread1.sh
@@ -1055,7 +1057,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+<img width="433" height="101" alt="exp1-casecom(13)" src="https://github.com/user-attachments/assets/d0b3d454-bfd5-4693-912d-3adb8081d012" />
 
 
 $ ./exread1.sh 
@@ -1076,6 +1078,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+<img width="435" height="127" alt="exp1-casecom(14)" src="https://github.com/user-attachments/assets/f7dcf05e-25cb-4ba9-9c73-a4b1493570b1" />
+
  ./funcex.sh 
 
  
@@ -1093,6 +1097,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="501" height="140" alt="exp1-casecom(15)" src="https://github.com/user-attachments/assets/948ae818-a25c-4703-ba11-ff37f67d4a61" />
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1110,6 +1116,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="482" height="175" alt="exp1-casecom(16)" src="https://github.com/user-attachments/assets/aa2320eb-eb0e-42dc-962f-c2bcf3f2693a" />
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1123,6 +1131,8 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="572" height="447" alt="exp1-casecom(17)" src="https://github.com/user-attachments/assets/431e93ff-71f5-4931-9f95-ff4fbada5b5f" />
+
  ./argshift.sh 1 2 3
  
  
@@ -1155,7 +1165,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="477" height="177" alt="exp1-casecom(18)" src="https://github.com/user-attachments/assets/f5945080-93c1-4f32-afc3-052362fae3d8" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1181,6 +1192,9 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+## output
+<img width="520" height="177" alt="exp1-casecom(19)" src="https://github.com/user-attachments/assets/84fe128d-3f73-48ba-801f-931338b8b84a" />
+
 ## OUTPUT 
 
 
