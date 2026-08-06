@@ -2,7 +2,8 @@
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
-
+# NAME: DEEPAKKUMAR S
+# REG NO : 212225230042
 # AIM:
 To practice Linux Commands and Shell Scripting
 
